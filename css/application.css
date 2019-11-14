@@ -12,6 +12,7 @@ body {
   padding: 0 2em;
   height: 100%;
   background-color: #11111166;
+  padding-bottom: 10em;
 }
 
 .header .gallery {
@@ -36,6 +37,15 @@ body {
   color: #555;
   word-spacing: 100vw;
   text-align: right;
+}
+
+.header .description a {
+  font-size: 0.5em;
+  text-decoration: none;
+  color: #629dda55;
+}
+.header .description a:hover {
+  color: #629dda99;
 }
 
 #gallery a {
